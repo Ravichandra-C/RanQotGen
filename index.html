@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/main.css">
+        <script type='module' src="js/generator.js"></script>
+        <title>Random Quote Generator</title>
+    </head>
+    <body>
+        <h1>Random Quote Generator</h1>
+        <div class='container'>
+            <div class='quotecontainer'>
+                <h2 id='quote'>"Happiness is a way of travel. Not a destination."</h2>
+                <h3 id='author'>Ravi</h3>
+                
+            </div>
+            <div class="interactive">
+                <div class='media'>
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="RandonQuote" data-show-count="false"><img src="imgs/twitterimg.png" style="width: 50px;height: 50px;"></img></a>
+                </div>
+                <div >
+                    <button class="nxt-quote" onclick="generateNextQuote()">Next Quote</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

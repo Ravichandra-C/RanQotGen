@@ -1,0 +1,52 @@
+html{
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+}
+.container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.quotecontainer{
+    width: 800px;
+    background-color: brown;
+    border-radius: 20px;
+    color: aquamarine;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+}
+#quote{
+    
+    font:400 36px/1.4 'cardo';
+    transition:opacity 2s;
+}
+#author{
+    text-align: right;
+    font:400 36px/1.4 'cardo';
+    transition:opacity 2s;
+    
+}
+.nxt-quote{
+    height: 50px;
+    border-radius: 10px;
+}
+.nxt-quote:hover{
+    background-color: peru;
+    transition: 1s;
+}
+.interactive{
+    width: 800px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.media{
+    flex-grow: 2;
+}
+
