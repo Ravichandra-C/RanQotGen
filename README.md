@@ -1,0 +1,2 @@
+# RanQotGen
+Random Quote Generator
