@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/main.css">
+        <script type='module' src="dist/main.js"></script>
+        <title>Random Quote Generator</title>
+    </head>
+    <body>
+        <div class="container d-flex flex-column">
+            <div class='row'>
+                <h1 class="col">Random Quote Generator</h1>
+            </div>
+            <div class='row justify-content-center align-items-center flex-grow-1'>
+                <div class='col-10 d-flex flex-column justify-items-center'>
+                     <div class='card m-3 text-center shadow'>
+                        <div class='card-body'>
+                            <h2 id='quote' class= 'card-text'>"Happiness is a way of travel. Not a destination."</h2>
+                            <h3 id='author' class="card-text text-right">Ravi</h3>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class='col-8'>
+                                <a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="RandonQuote" data-show-count="false"><img src="imgs/twitterimg.png" style="width: 50px;height: 50px;"></img></a>
+                            </div>
+                            <div class='col-4'>
+                                <button class="btn btn-lg btn-dark float-right" type="button" onclick="generateNextQuote()">Next Quote</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </body>
+</html>
